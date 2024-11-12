@@ -11,4 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
               alert('Failed to send email. Please try again.');
           });
   });
+
 });
