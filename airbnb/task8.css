@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+}
+.nav1{
+    width:100%;
+    height:65px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+}  
+.web2{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    border-style: solid;
+    background-color: white;
+    border-radius: 50px;
+    width: 60%;
+    height:50px;
+
+} 
+.item1{
+    border:none;
+    display: inline;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
+
+
+
+
+.air{
+    background-color:white;
+    width: 20%;
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#Search{
+    background-color: rgb(148, 21, 57);
+    border-style: solid;
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    :hover{
+        opacity: 0.5;
+    }
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.airimg{
+    background-color: white;
+    width: 200px;   
+}
+
+#destination{
+    color: grey;
+}
+#in{
+    color: grey;
+}
+#out{
+    color: grey;
+}
+#who{
+    color: grey;
+}
+#experience:hover{
+    opacity: 0.5;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+#home:hover{
+    opacity: 0.5;
+    background-color: aliceblue;
+    border-radius: 50%;
+
+}
+.center{
+    opacity:1.0;
+}
+#globe:hover{
+    opacity:0.5
+}
+.where:hover{
+    opacity: 0.5;
+    
+}
+.checkin:hover{
+    opacity: 0.5;
+}
+.checkout:hover{
+    opacity: 0.5;
+}
+.who:hover{
+    opacity: 0.5;
+}
+.home{
+    border:none;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+#address:hover{
+    opacity: 0.5;
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    opacity:  0.5;
+    
+    #ia:hover{opacity: 0.9;}
+    #ib:hover{opacity: 0.6;}
+    #ic:hover{opacity: 0.6;}
+    #id:hover{opacity: 0.6;}
+    #ie:hover{opacity: 0.6;}
+    #if:hover{opacity: 0.6;}
+    #ig:hover{opacity: 0.6;}
+    #ih:hover{opacity: 0.6;}
+    #ii:hover{opacity: 0.6;}
+    #ij:hover{opacity: 0.6;}
+    #ik:hover{opacity: 0.6;}
+    #il:hover{opacity: 0.6;}
+    #im:hover{opacity: 0.6;}
+    #in:hover{opacity: 0.6;}
+}
+
+
+
+
+
+
+
+
+
+
+
+#btn{
+    border-style: groove;
+    border-radius: 180%;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    align-items: top;
+    margin-top: 20px;
+    width: 1280px;
+    height: 350px;
+    background-color: white;
+}
+.border{
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 0.5px solid;
+}
+
+
+
+
+
+#iA{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;}
+#iA:hover{opacity: 0.5;}
+
+#iB{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+#iC{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+#iD{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+#title1{
+    opacity: 0.5;
+}
+#title2{
+    opacity: 0.5;
+}
+#title3{
+    opacity: 0.5;
+}
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+
+<h1 id="title">Hello World!</h1>
+<button id="changeTitle">Change Title</button>
+
+<script>
+document.getElementById("changeTitle").addEventListener("click", function() {
+    let title = document.getElementById("title");
+    title.innerHTML = "New Title!";
+});
+</script>
+
+</body>
+</html>

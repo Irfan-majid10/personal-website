@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--- <script>
+        let x = 5;
+x -= 3; // Equivalent to x = x + 3
+console.log(x); // Outputs 8
+
+    </script> -->
+    <!-- <script>
+        let text = "Hello, world!";
+let greeting = text.slice(0, 5);
+
+console.log(greeting); // Outputs: "Hello"
+console.log(text); // Outputs: "Hello, world!"
+
+    </script>  -->
+    <!-- <script>
+        Functiontocamelcase(str){
+        let words =
+        str.tolowercase().split(" ");
+         for (let i=1; i,words.length;i++){
+            words[i]=words[i]
+            [0].touppercase()   +
+        words[i]. slice(1)       }
+        return words.join("");}
+
+        tocamelcase("HELLO WORLD")
+         
+    </script> -->
+    <!-- <script>
+function comp(str1, str2) {
+    return str1.length === str2.length;
+}
+
+// Test cases
+console.log(comp("AB", "CD"));       // ➞ true
+console.log(comp("ABC", "DE"));      // ➞ false
+console.log(comp("hello", "bridgeon")); // ➞ false
+
+    </script> -->
+    <!-- <script>
+        function toCamelCase(str) {
+    return str
+        .toLowerCase() 
+        .split(/[^a-zA-Z0-9]/)
+        .map((word, index) => index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1))
+        .join('');
+}
+
+// Test cases
+console.log(toCamelCase("bridgeonsolutions")); // ➞ "bridgeonSolutions"
+console.log(toCamelCase("HowAreYou?")); // ➞ "howAreYou?"
+console.log(toCamelCase("HELLOWORLD")); // ➞ "helloWorld"
+
+    </script> -->
+    <!-- <script>
+        let text="Hello,World!!";
+        console.log(text.substring(0,9))
+    </script> -->
+    <!-- <script>
+        let text ="hello, world"
+        console.log(text.substr(1,5))                                                                      string str
+    </script> -->
+    <!-- <script>
+        let str = "hello ";
+let index = str.indexOf("hello");
+
+console.log(index); // Outputs: 7 (because "world" starts at index 7)
+
+    </script> -->
+    <!-- <script>
+        let str = "Hello, world!Hello,     everyone!";
+let index = str.lastIndexOf("Hello");
+
+console.log(index); // Outputs: 13 (because the last "Hello" starts at index 13)
+
+    </script> -->
+    <!-- <script>
+           let number=[1,2,3];
+           let squard=number.new map(num=>num+num);
+           console.log(squard)
+    </script> -->
+    <!-- <script>
+        let map= new map();
+        map.set("name","alice");
+        map.set(1,"one");
+        map.set(true,"boolean");
+        console.log(map.get("name"));
+        console.log(map.has(1));
+        console.log(map.size);
+        map.delete(true);
+        for (let[key,value] of map ){
+            console.log(key,value);
+        }
+
+    </script> -->
+    <!-- <script>
+        let fruits = new Map();
+
+fruits.set("apples", 500);
+fruits.set("bananas", 300);
+fruits.set("oranges", 200);
+    
+
+console.log(fruits.get("apples")); // Outputs: 500
+console.log(fruits.has("bananas")); // Outputs: true
+console.log(fruits.size); // Outputs: 3
+
+fruits.forEach((value, key) => {
+    console.log(`${key}: ${value}`);                                                   new map
+});
+// Outputs:
+// apples: 500
+// bananas: 300
+// oranges: 200
+
+fruits.delete("apples");
+console.log(fruits); // Outputs: Map(2) { 'bananas' => 300, 'oranges' => 200 }
+
+fruits.clear();
+console.log(fruits); // Outputs: Map(0) {}
+
+    </script> -->
+    <!-- <script>
+        let number=[1,2,3,4,5,];
+        let even=number.filter(function(num){                                                   filter
+            return num % 2 ===0;
+        })
+        console.log(even);
+    </script> -->
+    <!-- <script>
+        let numbers = [1, 2, 3, 4, 5];
+
+let sum = numbers.reduce((total, num) => total + num, 0);
+
+console.log(sum); // Outputs: 15
+
+
+    </script> -->
+    <!-- <script>
+        let str1 = "Hello";
+let str2 = "World";
+let combinedString = str1.concat("   " ,str2);                                               concat
+
+console.log(combinedString); // Outputs: "Hello World"
+
+    </script> -->
+    <!-- <script>
+        let numbers =[1,2,3,4,5,6];
+        for(let number of numbers){
+            console .log (number);
+        }
+
+     </script> -->                                                     
+     <!-- <script>
+    let latters =["A","B","C","D","F"];          //for of loop
+    for(let latter of latters){
+        console .log (latter);
+    }
+    </script> -->
+    <!--<SCript>
+         let fruits = ["apple","mango","orange","banana"];
+         for(let fruit of fruit){                                    
+            console .log (fruits);
+         }
+    </SCript> -->
+    <!-- <script>
+        let person = {
+    name: "Alice",
+    age: 25,
+    city: "Wonderland"
+};
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+// Outputs:
+// name: Alice                                for in loop
+// age: 25
+// city: Wonderland
+
+    </script> -->
+    <!-- <script>
+     
+let fruits = ["Acai", "Orange", "Apple", "Mango"];
+
+// Log the original array to the console
+console.log("Original array: " + fruits);
+
+// Sort the array alphabetically                                 array sort
+fruits.sort();
+
+// Log the sorted array to the console
+console.log("Sorted array: " + fruits);
+    </script> -->
+     <!-- <script>
+      let fruit =["mango","cocunt","orange","cherry"]
+      console.log("orginal array:"+fruit)                         array reverse
+      fruit.reverse();
+      console.log("sorted array: "+ fruit);
+    </script> -->
+    <!-- <script> 
+    const numbers = [65, 44, 12, 4]
+numbers.forEach(myFunction) 
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;                                 array foreach
+};
+console.log(numbers);
+     </script>
+      <script>
+     let arr=[1,[2,3],[4,[5,6]]];                        flat
+     let flatarray =arr.flat(Infinity)
+     console.log(flatarray);
+
+
+    </script> -->
+    <!-- <script>
+      let friuts=["Apple","Banana","Cherry"];
+      let result=friuts.join();                            array join
+        console.log(result);
+      
+    </script> -->
+    <!-- <script>
+    let friuts=["Apple","Banana","Cherry"];                array at
+    let result=friuts.at(-1);
+    console.log(result);
+    </script> -->
+    <!-- <script>
+        let number=[1,2,3,4,5];
+        let odd= number.filter(function(num){
+            return num % 2===1;
+        })
+        console.log(odd);
+
+    </script> -->
+    <!-- <script> 
+        const num=[1,2,3,4,5,];
+        const result=num
+        .filter(value=>value%2!==0)
+        .map(value=>value**2)                                    
+        .reduce((total,value)=>total+value)   
+        console.log(result);
+    </script> -->
+    <!-- <script>
+        function add(a,b){
+            return a+b;                         simple function
+        }
+        let sum = add (2,4);
+        console.log(sum);
+    </script> -->
+     <!-- <script>
+//          function checkNumber(num) {
+//     if (num > 0) {
+//         return "Positive";
+//     } else if (num < 0) {
+//         return "Negative";
+//     } else {
+//         return "zero";
+//     }
+// }
+
+// let result = checkNumber(10);
+// console.log(result); // Outputs: Positive
+    </script> -->
+    <!-- <script>
+        function greet(name,lastname, ){
+            console.log('Hello'+' '+name+' '+lastname)
+        }
+        greet('thomus','smith','s'
+        );
+        greet('thomas')
+    </script> -->
+    <!-- <script>
+        function reversestring (str){
+            return str.split(" ").reverse(" ").join("")                                           function example
+}
+        let reversed = reversestring("irfan");
+        let jointed = reversestring("majid");
+        console.log(jointed,reversed);
+    </script> -->
+    <!-- <script>
+        function square(number,valuename){
+            return number*number; }
+        let result = square(9);
+        console.log(result,"squaredvalue");
+    </script> -->
+    <!-- <script>
+        function sum(x,y){
+            console.log(x*y);
+        }
+        sum(58,9)
+    </script> -->
+    <!-- <script>
+        setTimeout(function() {
+    console.log("Hello after 2 seconds");
+}, 2000);
+
+    </script> -->
+    <!-- <script>
+        const add = function(a, b) {
+    return a + b;
+};
+
+let result = add(2, 3);
+console.log(result);
+
+    </script> -->
+    <!-- <script>
+        let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(function(num) {
+    return num * 2;
+});
+
+console.log(doubled); 
+
+    </script> -->
+    <!-- <script> 
+    let globalVar = "I'm a global variable";
+
+function showGlobalVar() {
+    console.log(globalVar); // Accessible here
+}
+
+showGlobalVar(); // Outputs: I'm a global variable
+console.log(globalVar); // Also accessible here
+
+             
+    </script> -->
+    <!-- <script>
+       function inner(hai){
+        let inner= "hai hello";
+        function outer(i){
+            let outer="welcome";
+            
+            function meddile(){
+                let meddile="irfan";
+                console.log(inner,outer,meddile);   
+            }
+        meddile();
+
+        }
+        outer();
+        
+       }
+       inner();
+    </script>  -->
+    <!-- <script>
+        function factorial(n){
+            if (n===1) {
+                return 1;
+            }
+            else{
+                return n*factorial(n-1);
+            }
+        }
+        console.log(factorial(5));
+   </script> -->
+   <!-- <SCript>
+    for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= 5; j++) {
+    for (let z = 1;  z<=10; z++){
+        console.log("or")
+    }                                           
+        console.log(i*j)
+    }
+    console.log("----------------");    
+}
+   </SCript> -->
+   <!-- <script>
+    let str="irfan"
+        for (let i=0;i<=str.length; i++){
+        
+            console.log(str[i])
+         }   
+         
+        
+   </script> -->
+   <!-- <script>
+     let arr=[2,7,4,3,5,8]
+     let Result =arr.filter (function(arr)                                    promlem  1 
+       { return arr % 2 === 0 
+     })
+     console.log(Result);
+
+   </script> -->
+   <!-- <script>
+    const arr = [2, 7, 4, 3, 5, 8];
+                                                                            arrow function
+const evenNumbers = arr.filter(num => num % 2 === 0);
+console.log(evenNumbers); 
+
+   </script> -->
+   <!-- <script>
+        function printNumberPyramid(levels) {
+    for (let i = 1; i <= levels; i++) {
+        // Print leading spaces
+        let spaces = ' '.repeat(levels - i);
+        // Print numbers
+        let numbers = '';
+        for (let j = 1; j <= 2 * i - 1; j++) {
+            numbers += j + ' ';
+        }
+        // Combine spaces and numbers
+        console.log(spaces + numbers.trim());
+    }
+}
+
+printNumberPyramid(5);
+
+   </script> -->
+   <!-- <script>
+      function Print(row){
+        for(let i=1;i<=row;i++){
+            let space=' '.repeat(row-i);
+            let number='';
+            for (letj=1 ; j<=2*i-1;j++){
+                number+= j+' ';
+            }
+            console.log(space+number)
+        }
+      }
+   </script> -->
+   <!-- <script>
+               const arr=[1,4,7,3,6];
+               const big = Math.max(...arr);
+               console.log(big);
+   </script>   -->
+  <!-- <script>
+        let input ="!trams era uoY"
+        let output= input.split('').reverse().join('');
+        console.log(output);
+        
+    </script> -->
+    <!-- <script>
+        const input=[1,5,9,15,30,50];
+        const output= input.filter(num=>num%5===0)
+        .reduce((acc,num)=> acc+num,0)
+        console.log(output)
+    </script> -->
+    <!-- <script>
+        const numbers=[5,8,50,100,50]
+        const digits = numbers.filter(num=>num%2===0)
+        .reduce((acc,num)=> acc+num,0)
+        console.log(digits);
+    </script> -->
+    <!-- <script>
+        let arr =[1,2,3,4,5];
+        let square =arr.map(num=>num*num);
+        console.log(square);
+    </script> -->
+    <!-- <script>
+        const input=[1,-4,9,0,30,-50];
+        const Positive= input.filter(num=>num>0)
+        .reduce((acc,num)=>acc+num,0);
+        console.log(Positive);
+    </script> -->
+      <!-- <script>
+        str="world";
+        function words (str){
+            return str.split('').map((char,index)=>index%2===0?char.toUpperCase():char.toLowerCase())
+            .join('')
+                
+            }
+            console.log(words(str));
+
+        
+      </script> -->
+      <!-- <script>
+            let input =["malayalam","deed","hello","peep","jump"]
+            let output= input.filter(split)
+      </script> -->
+      <!-- <script>
+        function find(arr) {
+    return arr.filter(word => {
+        let reversed = word.split('').reverse().join('');
+        return word === reversed;
+    });
+}
+
+const input = ['malayalam', 'deed', 'hello', 'peep', 'jump'];
+const output = find(input);
+console.log(output); 
+
+     </script> -->
+     <!-- <script>
+            function separete (arry){
+                return arry.filter(item => typeof item === 'number');
+            } 
+            console.log(separete([1,2,"a","b"]));
+            console.log(separete([1,"a","b",0,15]));
+            console.log(separete([1,2,"aasf","1","123",12]));
+            
+       
+     </script> -->
+     <!-- <script>
+          function fourth(letters){
+            return letters.filter(latters=>latters.length===4);
+          }
+          console.log(fourth(["Tomato","Potato","pair"]));
+          console.log(fourth(["Kangaroo","Bear","Fox"]));
+          console.log(fourth(["Ryan","Kieran","Jason","Test"]));
+     </script> -->
+     <!-- <script>
+           function  words(sentance){
+            return sentance.split(' ').map(word=>{
+                return word.length >=5 ? word.split('').reverse().join('') : word;
+            }) .join(' ');
+           }
+           console.log(words("Hey fellow warriors"));
+           console.log(words("This is test"));
+           console.log(words("This is another test"));
+     </script> -->
+     <!-- <script>
+             function calculator(num1, operator, num2) {
+    switch (operator) {
+        case "+":
+            return num1 + num2;
+        case "-":
+            return num1 +num2;
+        case "*":
+            return num1 * num2;
+        case "/":
+            return num1 / num2;
+        default:
+            return "Invalid operator";
+    }
+}
+
+// Examples:
+console.log(calculator(2, "+", 2)); // ➞ 4
+console.log(calculator(2, "*", 2)); // ➞ 4
+console.log(calculator(4, "/", 2)); // ➞ 2
+
+     </script> -->
+     <!-- <script>
+        function countTrue(arr) {
+    return arr.filter(item => item === true).length;
+}
+
+// Examples:
+console.log(countTrue([true, false, false, true, false])); // ➞ 2
+console.log(countTrue([false, false, false, false])); // ➞ 0
+console.log(countTrue([])); // ➞ 0
+
+     </script> -->
+     <!-- <script>
+          function card (correct){
+            return correct.filter(item=>item===true).length
+          }
+          console.log(card([true,false,true,false,false]));
+          console.log(card([false,false,false,false]));
+          console.log(card([]));
+          console.log(card([true,false]))
+     </script> -->
+     <!-- <script>
+        //   function revesecase(rev){
+        //     return rev.splice('').map(char=>char===char.toupppercase()?char.toupppercase:char.towercase():char.uppercase)
+        //   }
+        function reverseCase(str) {
+    return str.split('').map(char => char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase()).join('');
+}
+console.log(reverseCase("bRIDGEON sOLUTIONS")); 
+console.log(reverseCase("CODE WARS")); 
+console.log(reverseCase("jAvAsCrIpT"));
+
+     </script> -->
+     <!-- <script>
+        function printNumberPyramid(){
+            let alfabets ="ABCDEFGHIJKLMNPQRSTUVWXYZ";
+            for (let i= 0; i<5; i++){
+                let row= "";
+                for(let j=i; j>=0;j--){
+                    row+=alfabets[j];
+                }
+                console.log(row);
+            }
+        }
+        printNumberPyramid();
+     </script> -->
+     <!-- <script>
+       function printNumberPyramid(n){
+        for (let i=1;i<=n;i++){
+            let row='';
+        for (let j=1; j<=i;j++);{
+         row+=j;
+            }
+            console.log(row);
+        }
+       }
+       printNumberPyramid(5)
+     </script> -->
+     <!-- <script>
+        function numberPyramid(n) {
+    for (let i = 1; i <= n; i++) {
+        let row = '';
+        for (let j = 1; j <= i; j++) {
+            row += j;
+        }
+    console.log(row);
+    }
+    
+}
+
+numberPyramid(5);
+
+     </script> -->
+     <script>
+        function printNumberPyramid(n){
+            for(let i=0; i<=n;i++)
+            
+        }             
+     </script>
+</body>
+</html>
